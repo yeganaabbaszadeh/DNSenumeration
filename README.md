@@ -15,3 +15,10 @@ chmod u+x reverselookup.sh
 ./reverselookup.sh [file containing ip addresses] [domain]
 ```
 After running the script `result_for_reverselookup.txt` will be created which stores the list of subdomains that present given an ip address.
+
+## Zone transfer
+```
+chmod u+x zonetransfer.sh
+./zonetransfer.sh [domain]
+```
+After running the script `zonetransfer.txt` file will be created which stores zone transfer data.
